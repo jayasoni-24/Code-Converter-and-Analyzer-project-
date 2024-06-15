@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: #5e51b4; /* Green header background */
+    color: white;
+    text-align: center;
+    padding: 0rem 0;
+}
+
+.content {
+    background-color: #fff; /* White content background */
+    padding: 8rem 0 ;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+footer {
+    background-color: #333; /* Dark footer background */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-image: url("coding.webp");
+    background-size: cover; /* Background image will cover the entire body */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, p {
+    color: white; /* Text color */
+}
